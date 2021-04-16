@@ -13,7 +13,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#run-application">Run the Application</a></li>
+        <li><a href="#run-the-application">Run the Application</a></li>
       </ul>
     </li>
     <li><a href="#flow">Flow</a></li>
