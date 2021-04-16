@@ -45,48 +45,50 @@ This is apps for getting the best profit
   ```bash
   npm install -g typescript
   ```
+- Install definition file for node
+  ```bash
+  npm install --save-dev @types/node
+  ```
 
 ### Run the Application
 
-For the run the program, you can choose which procedure you want to:
+For the run the application, you can choose which procedure you want to:
 
 1. Procedure 1
-   - run via `npx` command
-     ```bash
-     npx ts-node max-profit.ts
-     ```
-2. Procedure 2
 
-- run the typescript file with the following command. This will create a javascript file from typescript automatically with the same name.
-
-```bash
-tsc max-profit.ts
-```
-
-- Now run the javascript file, the greet.ts file will get executed:
-
-```bash
-node max-profit.js
-```
-
-3. Procedure 3
    - You can merge both the commands by using a pole | and && like below :
+
      - In Windows
        ```bash
        tsc max-profit.ts | node max-profit.js
        ```
      - In Linux or macOS
+
        ```bash
        tsc max-profit.ts && node max-profit.js
        ```
-4. Procedure 4
+
+2. Procedure 2
+
+    - run the typescript file with the following command. This will create a javascript file from typescript automatically with the same name.
+        ```bash
+        tsc max-profit.ts
+        ```
+
+    - Now run the javascript file:
+
+        ```bash
+        node max-profit.js
+        ```
+
+3. Procedure 3
    - Run via `ts-node`, you must install first
      ```bash
      npm install -g ts-node
      ```
    - To run:
      ```bash
-     ts-node max-profit.ts
+       ts-node max-profit.ts
      ```
 
 ## Flow
