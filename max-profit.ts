@@ -69,7 +69,7 @@ export class MaxProfit {
   }
 }
 
-const readFile = fs.readFile(__dirname + "/data-history.txt", function(
+fs.readFile(__dirname + "/data-history.txt", function(
   err,
   data
 ) {
